@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 1.5em 0 -0.5em 0;
     clear: both;
 }
-img {
+img, svg {
     display: block;
     width: 100%;
     height: auto;
@@ -373,7 +373,7 @@ th {
 tr:nth-child(even) td {
     background: #f5f6f7;
 }
-a.share img {
+a.share img, a.share svg {
     display: inline;
     width: 2em;
     clear: right;
